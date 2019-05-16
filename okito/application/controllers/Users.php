@@ -8,6 +8,6 @@ class Users extends CI_Controller{
         $this->load->view('registration');
     }
     public function register(){
-        redirect('dummy_page');
+        echo 'dummy page regisztráció után.';
     }
 }
