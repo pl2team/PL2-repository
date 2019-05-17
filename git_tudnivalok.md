@@ -1,14 +1,22 @@
+#Git tudnivalók
+
 git init
 Ezzel létrehozom a helyi adatbázis
+
 git clone https://github.com/pl2team/PL2-repository.git
 Ezzel leklónozom a távoli szervert (csak egyszer kell megcsinálni)
+
 cd PL2-repository
 Ezzel benavigálok a letöltött mappába, mert abba kell majd dolgozni
+
 git remote -v
-Ezzel lekérem azt a 2 linket, hogy biztosan jó-e. Az egyik a fetch végû, a másik a push végû.
+inket, hogy biztosan jó-e. Az egyik a fetch végû, a másik a push végû.
+
 git checkout develop
 Ezzel arra az ágra váltok, amiben majd dolgozni kell.
+
 --------------------------------------------------------
+
 git pull origin develop
 Ezzel lementem a távoli szerver aktuális állapotát
 
@@ -20,11 +28,11 @@ Ezzel megnézem, hogy van-e nem commitolt, vagy nem pussolt adatom.
 Ha van A jellel, akkor
 
 git commit -m "Kovspec feltoltese"
-majd ezzel feltöltöm:
+ezzel létrehozom a commitot
 
-közvetlenül push elõtt lehet pullolni is.
+Utolsó lépés:
 git push origin develop
-
+ezzel töltõdik fel 
 
 
 
