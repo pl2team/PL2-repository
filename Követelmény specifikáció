@@ -1,14 +1,23 @@
 # Követelmény specifikáció
+
 Jelenlegi helyzet:
-A diákok a multimédiás eszközök világában nőnek fel, de nincs olyan eszközük/ünk amivel őket a tanulásra ösztönözhetnénk. 
-Jelenleg minden tananyag könyv formájában érhető el. Illetve a dolgozatokat is papírformában tudják csak megírni. Ezen a helyzeten szeretnénk változtatni. 
+A diákok a multimédiás eszközök világában nőnek fel, de nincs olyan eszközük/ünk amivel őket a tanulásra ösztönözhetnénk őket.
+Jelenleg minden tananyag könyv formájában érhető el. Illetve a dolgozatokat is papírformában tudják csak megírni.
+Ezen a helyzeten szeretnénk változtatni. 
+
 Vágyálom rendszer:
+Egy olyan tanulást segítő szoftvert alkotunk meg, amit a diákok az internet segítségével bárhol elérhetnek a világon.
+Amikor van egy kis szabadidejük, akkor csak megnyitják az alkalmazást, felhasználónevükkel belépnek, és már elérhetővé is válik számukra a feltöltött tudástár.
+A tananyagokhoz tartozzanak többször elvégezhető feladatok, amelyeket a tanárok képesek legyenek szerkeszteni.
+Legyenek benne játékos feladatok is, hiszen a cél a gyerekek oktatása olyan szinten, hogy ők ezt a tanulási folyamatot észrevétlenül élvezzék.
 Követelmény lista:
-  Projekt hivatkozási neve
-  Választott platform
-  Az alkalmazás rövid leírása
-  Funkcionális követelmények
-  Nem funkcionális követelményekFelhasználói követelmények
+  Projekt hivatkozási neve: Tanulássegítő webalkalmazás
+  Választott platform: Web
+  Az alkalmazás rövid leírása:
+	A programnak a segítségével tudunk tananyagokat felvinni a rendszerbe, amit a diákok a saját felhasználói fiókjukkal elérhetnek.
+	A diákok felmérhetik tudásukat játékos feladatokat keretein belül.
+  Felhasználói követelmények: 
+	-a weboldal elérhető legyen a nap 24 órájában
+	-a jelszavak titkosítva tárolódjanak
   Rendszer követelmények
-  Biztonsági megkötések
-  Képernyőképek, tervek
+	-Böngészővel rendelkező számítógép, laptop, mobiltelefon.
