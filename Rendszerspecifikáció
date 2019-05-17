@@ -12,27 +12,27 @@ A rendszerrel szemben támasztott általános követelmények
 Funkcionális követelmények
 Az első, korlátozott funkcionalitású táblák követelményei
 -	Tanár által elérhető funkciók
-o	A rendszerbe felvihet tananyagot
-o	A rendszerbe felvihet témakört
+    o	A rendszerbe felvihet tananyagot
+    o	A rendszerbe felvihet témakört
 -	Diák által elérhető funkciók
-o	Tananyag választás
-o	Témakör választás
+    o	Tananyag választás
+    o	Témakör választás
 -	Felülettel kapcsolatos követelmények
 -	Adatbázis terv
-o	Táblák
-	Tananyagok
-	Megoldások
-	Tantárgyak
-	Feladattípusok
-	Felhasználó
-	Jogosultság
+    o	Táblák
+      	Tananyagok
+      	Megoldások
+      	Tantárgyak
+      	Feladattípusok
+      	Felhasználó
+      	Jogosultság
 -	Funkció terv
-o	weben: minden funkció
-	bejelentkezés
-	regisztráció
-	témakör választás
-	tananyag választás
-	tananyag megtekintés
+    o	weben: minden funkció
+      	bejelentkezés
+      	regisztráció
+      	témakör választás
+      	tananyag választás
+      	tananyag megtekintés
 
 # 
 Rendszerspecifikáció
