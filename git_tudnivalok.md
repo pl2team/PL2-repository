@@ -1,4 +1,5 @@
 #Git tudnivalók
+-------------------------------------------------
 
 git init
 Ezzel létrehozom a helyi adatbázis
