@@ -9,5 +9,7 @@ class Users extends CI_Controller{
     }
     public function register(){
         echo 'dummy page regisztráció után.';
+        echo '<br>';
+        echo 'Regisztrált: '.  $this->input->post('username');
     }
 }
