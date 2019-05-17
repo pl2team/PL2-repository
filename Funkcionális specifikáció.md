@@ -8,31 +8,31 @@ A cél a gyerekek oktatása olyan szinten, hogy ők ezt a tanulási folyamatot �
 
 ## A rendszer funkciói
 ### Tanuló oldal
-#### Regisztráció
-#### Bejelentkezés
-#### Témakörök közötti barangolás
-#### Tananyagok megtekintése
-#### Tananyagok letöltése pdf formátumban
-#### Tananyagokhoz kapcsolódó végi feladatok és megoldások.
+#### - Regisztráció
+#### - Bejelentkezés
+#### - Témakörök közötti barangolás
+#### - Tananyagok megtekintése
+#### - Tananyagok letöltése pdf formátumban
+#### - Tananyagokhoz kapcsolódó végi feladatok és megoldások.
 ### Tanároldal
-#### Regisztráció
-#### Bejelentkezés
-#### Témakörök közötti barangolás
-#### Tananyagok megtekintése
-#### Tananyagok letöltése pdf formátumban
-#### Témakörök létrehozása
-#### Témakörök szerkesztése
-#### Tananyagok hozzáadása
-#### Tananyagok szerkesztése
+#### - Regisztráció
+#### - Bejelentkezés
+#### - Témakörök közötti barangolás
+#### - Tananyagok megtekintése
+#### - Tananyagok letöltése pdf formátumban
+#### - Témakörök létrehozása
+#### - Témakörök szerkesztése
+#### - Tananyagok hozzáadása
+#### - Tananyagok szerkesztése
 
 
 ## Nem funkcionális követelmények
-### GDPR-nak való megfelelés
-### Bejelentkezés nélkül ne lehessen használni az oldalt.
+### - GDPR-nak való megfelelés
+### - Bejelentkezés nélkül ne lehessen használni az oldalt.
 
 
 ## Az alkalmazás működésének áttekintése
-### Kliensoldal
-### Szerveroldal
+### - Kliensoldal
+### - Szerveroldal
 ## Dizájn terv
-### Megtalálható a git terv mappájába.
+### - Megtalálható a git terv mappájába.
