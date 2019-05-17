@@ -1,1 +1,38 @@
-# Rendszerspecifikáció
+Rendszerspecifikáció
+A követelményspecifikációban leírt vágyálom rendszer a megrendelő 
+kérésére több, egymást követő részletben készül el. Ezzel az elvárt 
+funkciók részletekben, ezért a megrendelő számára hamarabb elérhetőek. 
+Az alábbi specifikáció az első, korlátozott funkciójú átadáshoz 
+készült. Minden további funkció a megrendelővel való későbbi 
+egyeztetés során készül el. 
+A rendszerrel szemben támasztott általános követelmények
+-	A rendszer használata regisztrációhoz kötött
+-	Webes felület
+-	MySql adatbázis használata
+Funkcionális követelmények
+Az első, korlátozott funkcionalitású táblák követelményei
+-	Tanár által elérhető funkciók
+o	A rendszerbe felvihet tananyagot
+o	A rendszerbe felvihet témakört
+-	Diák által elérhető funkciók
+o	Tananyag választás
+o	Témakör választás
+-	Felülettel kapcsolatos követelmények
+-	Adatbázis terv
+o	Táblák
+	Tananyagok
+	Megoldások
+	Tantárgyak
+	Feladattípusok
+	Felhasználó
+	Jogosultság
+-	Funkció terv
+o	weben: minden funkció
+	bejelentkezés
+	regisztráció
+	témakör választás
+	tananyag választás
+	tananyag megtekintés
+
+# 
+Rendszerspecifikáció
