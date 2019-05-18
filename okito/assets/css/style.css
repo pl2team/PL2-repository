@@ -11,13 +11,79 @@ body {
     -moz-background-size: cover; 
     -webkit-background-size: cover;   
     color:black;
-
+    height:100%;
 }
-
+.loginbody{
+    background: #fff url(http://localhost/okito/assets/images/loginbg.png);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    -ms-background-size: cover; 
+    -o-background-size: cover; 
+    -moz-background-size: cover; 
+    -webkit-background-size: cover;   
+    height:100%;
+}
 .regform{
-   	background: rgba(211, 211, 211, 0.5);
-	box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
+   	background: rgba(211, 211, 211, 0.6);
+	box-shadow: rgba(0, 0, 0, 0.7) 20px 20px 20px;
         padding: 40px;
         border-radius: 25px;
 }
 
+.user_card {
+    height: 450px;
+    width: 400px;
+    padding: 40px;
+    margin: auto;
+    background: rgba(211, 211, 211, 0.7);
+    box-shadow: rgba(0, 0, 0, 0.7) 20px 20px 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+.brand_logo_container {
+    position: absolute;
+    height: 170px;
+    width: 170px;
+    top: -90px;
+    border-radius: 50%;
+    background: #325D88;
+    padding: 10px;
+    text-align: center;
+}
+.brand_logo {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.form_container {
+    margin-top: 10px;
+}
+.login_container {
+    padding: 0 2rem;
+}
+.input-group-text {
+    background: #325D88 !important;
+    color: white !important;
+    border: 0 !important;
+    border-radius: 0.25rem 0 0 0.25rem !important;
+}
+.input_user,
+.input_pass:focus {
+    box-shadow: none !important;
+    outline: 0px !important;
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+    background-color: #325D88 !important;
+}
+.title{
+    color:#325D88;
+    padding-top:50px; 
+    text-align: center
+}

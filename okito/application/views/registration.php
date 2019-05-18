@@ -7,10 +7,11 @@
     <title>Regisztráció</title>
     </head>
     <body class="regbody">
-        <div class="container h-100">
-            <div class="row  h-40" style="margin-top:20%">
-                <div class="col-7 mx-auto regform ">
-                    <h1>Regisztráció</h1>
+        <div  class="container h-100">
+            <div class="d-flex justify-content-center h-100">
+            <div  style="margin-top:20%;margin-bottom:20%; width:60%">
+                <div class=" regform ">
+                    <h1 style="padding: 0 !important" class="title">Regisztráció</h1>
                          <?php echo form_open('users/registration');?>
                             <div>                   
                                 <div class="form-group">
@@ -25,13 +26,13 @@
                                     <label>Jelszó megerősítése:</label>
                                     <input type="password" class="form-control" name="password2" placeholder="Jelszó megadása."> 
                                     <br>
-                                    <p style="color:red"><?php echo validation_errors();?></p>
-                                    <button type="submit" class ="btn btn-primary ">Regisztráció</button>
+                                    <div style="color:red"><?php echo validation_errors();?></div>
+                                    <button type="submit" class ="btn btn-primary block ">Regisztráció</button>
                                 </div>
                             </div>
                     <?php echo form_close();?>
                 </div>
-                
+                </div>
             </div>                        
         </div>
     </body>

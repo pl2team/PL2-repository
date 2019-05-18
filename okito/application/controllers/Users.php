@@ -29,5 +29,11 @@ class Users extends CI_Controller
             echo 'dummy page regisztráció után.';
             echo '<br>';
             echo 'Regisztrált: '.  $this->input->post('username');
-	}    
+	}   
+    public function login()
+    {
+        $this->load->helper('url');
+        $this->load->helper('form');
+        $this->load->view('login');
+    }
 }
