@@ -1,1 +1,16 @@
-# Tesztjegyzőkönyv
+Bevezetés
+A tesztelők a tesztforgatókönyvnek megfelelően elvégzik a tesztelést és az eredményt a tesztelési jegyzőkönyvben dokumentálják. A teszt kimenetelét minden esetben jelenteni kell az adott csapatvezetőjének és dokumentálni Trello-ban. A csapatvezetők a team-mel közösen megoldást keresnek a problémákra, majd szükség esetén frissítik a tesztforgatókönyvet. Ha a problémát megoldották, a tesztelő újrakezdheti a tesztelést, majd dokumentálja az eredményeket. Ha a hiba továbbra is fennáll, és harmadik félen múlik a megoldása eszkalálni kell a problémát a projekt menedzsernek.
+
+Minta teszt eset
+A teszteket az alábbi minta alapján végezzük:
+
+A teszt-eset leírás és célja:
+A tesztelt folyamat/funkció leírása:
+A tesztelés előfeltételei:
+A tesztelés dátuma és időpontja:
+A tesztadatok típusa:
+A tesztet végző személy(ek):
+A tesztelt rendszer beállításai:
+A teszt-eset elvárt eredménye:
+A tesztelés eredménye: Megfelelt / Nem felelt meg / Megfelelt megjegyzésekkel
+Megjegyzések:
