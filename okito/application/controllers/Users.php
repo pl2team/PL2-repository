@@ -32,8 +32,17 @@ class Users extends CI_Controller
 	}   
     public function login()
     {
-        $this->load->helper('url');
-        $this->load->helper('form');
-        $this->load->view('login');
+        $this->form_validation->set_rules('username', 'Username', 'required');
+        if($this->form_validation->run() === FALSE)
+            {
+                 $this->load->helper('url');
+                 $this->load->helper('form');
+                 $this->load->view('login');
+            } 
+        else 
+            {
+               echo 'énleszek a főoldal';
+            }
+
     }
 }

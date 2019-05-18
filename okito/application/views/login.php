@@ -39,10 +39,12 @@
                             </div>
 			
                     </div>
+                    <div style="color:red"><?php echo validation_errors();?></div>
                     <div class="d-flex justify-content-center mt-3 ">
 			<button style="color:white;" type="submit" class="btn btn-primary btn-block">Bejelentkezés</button>
                     </div>
                     <?php echo form_close();?>
+                    
                     <div class="mt-4">
 			<div style="color:white"  class="d-flex justify-content-center ">
                             Nincs még felhasználói fiókod? <a style="color:#325D88;" href="<?php echo base_url()?>/registration" class="ml-2">Regisztrálj</a>
@@ -50,6 +52,7 @@
 			<div  class="d-flex justify-content-center ">
                             <a style="color:#325D88;" href="#">Elfelejtetted a jelszavad?</a>
 			</div>
+                        
                     </div>
 		</div>
             </div>
