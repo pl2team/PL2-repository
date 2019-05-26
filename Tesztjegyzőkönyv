@@ -4,7 +4,7 @@ A tesztelők a tesztforgatókönyvnek megfelelően elvégzik a tesztelést és a
 Minta teszt eset
 A teszteket az alábbi minta alapján végezzük:
 
-A teszt-eset leírás és célja:
+A teszt-eset leírása és célja:
 A tesztelt folyamat/funkció leírása:
 A tesztelés előfeltételei:
 A tesztelés dátuma és időpontja:
@@ -15,7 +15,7 @@ A teszt-eset elvárt eredménye:
 A tesztelés eredménye: Megfelelt / Nem felelt meg / Megfelelt megjegyzésekkel
 Megjegyzések:
 
-A teszt-eset leírás és célja: Az SQL script helyességének tesztelése
+A teszt-eset leírása és célja: Az SQL script helyességének tesztelése
 A tesztelt folyamat/funkció leírása: Az SQL inicializáló script futtatása a tesztadatbázison
 A tesztelés előfeltételei: MySQL adatbázis, schema, belépési adatok megléte
 A tesztelés dátuma és időpontja: 2019.05.26. 19:25
@@ -26,7 +26,7 @@ A teszt-eset elvárt eredménye: A script hiba nélkül lefut, a táblák és az
 A tesztelés eredménye: Megfelelt
 Megjegyzések: 
 
-A teszt-eset leírás és célja: Az főoldal megjelenítésének tesztelése
+A teszt-eset leírása és célja: Az főoldal megjelenítésének tesztelése
 A tesztelt folyamat/funkció leírása: Belépés utáni alapértelmezett oldal megjelenítése
 A tesztelés előfeltételei: Meglévő login oldal
 A tesztelés dátuma és időpontja:2019.05.26. 19:51
@@ -35,4 +35,15 @@ A tesztet végző személy(ek): Takácsné Mihók Orsolya
 A tesztelt rendszer beállításai: Wamp szerver: localhost, SQL: 80.211.206.34:3306 username: okito
 A teszt-eset elvárt eredménye: Megjelenik a főoldal, CSS és view betöltődik
 A tesztelés eredménye: Megfelelt
+Megjegyzések:
+
+A teszt-eset leírás és célja: Az főoldali információk tesztelése
+A tesztelt folyamat/funkció leírása: A főoldal az adatbázisból a megfelelő információkat jeleníti meg
+A tesztelés előfeltételei: Tesztadatok megléte az adatbázisban
+A tesztelés dátuma és időpontja: 2019.05.26. 20:00
+A tesztadatok típusa: Létező adatbázis, feltöltött tesztadatok
+A tesztet végző személy(ek): Takácsné Mihók Orsolya
+A tesztelt rendszer beállításai: Wamp szerver: localhost, SQL: 80.211.206.34:3306 username: okito
+A teszt-eset elvárt eredménye: Megjelenik a tantárgylista
+A tesztelés eredménye: Megfelelt 
 Megjegyzések:
