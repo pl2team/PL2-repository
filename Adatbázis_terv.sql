@@ -63,3 +63,8 @@ CREATE TABLE `megoldasok` (
   KEY `FK_Megoldasok_IdTananyag_idx` (`IdTananyag`),
   CONSTRAINT `FK_Megoldasok_IdTananyag` FOREIGN KEY (`IdTananyag`) REFERENCES `tananyagok` (`IdTananyag`) ON DELETE NO ACTION ON UPDATE NO ACTION
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+INSERT INTO tantargyak (Megnevezes, Kategoria) VALUES ('Magyar','Humán');
+INSERT INTO tantargyak (Megnevezes, Kategoria) VALUES ('Angol','Humán');
+INSERT INTO tantargyak (Megnevezes, Kategoria) VALUES ('Matematika','Reál');
+INSERT INTO tantargyak (Megnevezes, Kategoria) VALUES ('Fizika','Reál');
