@@ -37,7 +37,6 @@ CREATE TABLE `tantargyak` (
 CREATE TABLE `feladattipusok` (
   `IdFeladattipusok` int(11) NOT NULL AUTO_INCREMENT,
   `Megnevezes` varchar(45) NOT NULL,
-  `Tartalom` longtext,
   PRIMARY KEY (`IdFeladattipusok`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
@@ -68,3 +67,45 @@ INSERT INTO tantargyak (Megnevezes, Kategoria) VALUES ('Magyar','Humán');
 INSERT INTO tantargyak (Megnevezes, Kategoria) VALUES ('Angol','Humán');
 INSERT INTO tantargyak (Megnevezes, Kategoria) VALUES ('Matematika','Reál');
 INSERT INTO tantargyak (Megnevezes, Kategoria) VALUES ('Fizika','Reál');
+
+INSERT INTO feladattipusok (Megnevezes) VALUES ('Szöveges');
+
+INSERT INTO tananyagok (Megnevezes, IdFeladattipusok,IdTantargy, Tartalom) VALUES ('János Vitéz',1,1,'Tüzesen süt le a nyári nap sugára
+Az ég tetejéről a juhászbojtárra.
+Fölösleges dolog sütnie oly nagyon,
+A juhásznak úgyis nagy melege vagyon.
+
+Szerelem tüze ég fiatal szivében,
+Ugy legelteti a nyájt a faluvégen.
+Faluvégen nyája mig szerte legelész,
+Ő addig subáján a fűben heverész.
+
+Tenger virág nyílik tarkán körülötte,
+De ő a virágra szemét nem vetette;
+Egy kőhajtásnyira foly tőle a patak,
+Bámuló szemei odatapadtanak.
+
+(Pest, 1844, november-december)');
+
+INSERT INTO tananyagok (Megnevezes, IdFeladattipusok,IdTantargy, Tartalom) VALUES ('Lession 1',1,2,'English lession 1.');
+INSERT INTO tananyagok (Megnevezes, IdFeladattipusok,IdTantargy, Tartalom) VALUES ('Lession 2',1,2,'English lession 2.');
+INSERT INTO tananyagok (Megnevezes, IdFeladattipusok,IdTantargy, Tartalom) VALUES ('Lession 3',1,2,'English lession 3.');
+INSERT INTO tananyagok (Megnevezes, IdFeladattipusok,IdTantargy, Tartalom) VALUES ('Lession 4',1,2,'English lession 4.');
+INSERT INTO tananyagok (Megnevezes, IdFeladattipusok,IdTantargy, Tartalom) VALUES ('Lession 5',1,2,'English lession 5.');
+INSERT INTO tananyagok (Megnevezes, IdFeladattipusok,IdTantargy, Tartalom) VALUES ('Lession 6',1,2,'English lession 6.');
+INSERT INTO tananyagok (Megnevezes, IdFeladattipusok,IdTantargy, Tartalom) VALUES ('Lession 7',1,2,'English lession 7.');
+INSERT INTO tananyagok (Megnevezes, IdFeladattipusok,IdTantargy, Tartalom) VALUES ('Lession 8',1,2,'English lession 8.');
+INSERT INTO tananyagok (Megnevezes, IdFeladattipusok,IdTantargy, Tartalom) VALUES ('Lession 9',1,2,'English lession 9.');
+INSERT INTO tananyagok (Megnevezes, IdFeladattipusok,IdTantargy, Tartalom) VALUES ('Lession 10',1,2,'English lession 10.');
+INSERT INTO tananyagok (Megnevezes, IdFeladattipusok,IdTantargy, Tartalom) VALUES ('Lession 11',1,2,'English lession 11.');
+INSERT INTO tananyagok (Megnevezes, IdFeladattipusok,IdTantargy, Tartalom) VALUES ('Lession 12',1,2,'English lession 12.');
+INSERT INTO tananyagok (Megnevezes, IdFeladattipusok,IdTantargy, Tartalom) VALUES ('Összeadás',1,3,'1 + 1 = 2');
+INSERT INTO tananyagok (Megnevezes, IdFeladattipusok,IdTantargy, Tartalom) VALUES ('Kivonás',1,3,'3 - 2 = 1');
+INSERT INTO tananyagok (Megnevezes, IdFeladattipusok,IdTantargy, Tartalom) VALUES ('Szorzás',1,3,'1 * 1 = 1');
+INSERT INTO tananyagok (Megnevezes, IdFeladattipusok,IdTantargy, Tartalom) VALUES ('Osztás',1,3,'8 / 4 = 2');
+INSERT INTO tananyagok (Megnevezes, IdFeladattipusok,IdTantargy, Tartalom) VALUES ('Lecke 1',1,4,'Fizika lecke 1.');
+INSERT INTO tananyagok (Megnevezes, IdFeladattipusok,IdTantargy, Tartalom) VALUES ('Lecke 2',1,4,'Fizika lecke 2.');
+INSERT INTO tananyagok (Megnevezes, IdFeladattipusok,IdTantargy, Tartalom) VALUES ('Lecke 3',1,4,'Fizika lecke 3.');
+INSERT INTO tananyagok (Megnevezes, IdFeladattipusok,IdTantargy, Tartalom) VALUES ('Lecke 4',1,4,'Fizika lecke 4.');
+
+COMMIT;
