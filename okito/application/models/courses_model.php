@@ -1,5 +1,6 @@
 <?php
-class course_model extends CI_Model
+
+class courses_model extends CI_Model
 {
     public function __construct()
     {
