@@ -48,3 +48,14 @@ A tesztelt rendszer beállításai:
 A teszt-eset elvárt eredménye: Megjelenik a tantárgylista
 A tesztelés eredménye: Megfelelt / Nem felelt meg / Megfelelt megjegyzésekkel
 Megjegyzések:
+
+A teszt-eset leírás és célja: A főoldal elemei kattinthatóak
+A tesztelt folyamat/funkció leírása: A főoldal gombjai kattintásra továbbnavigálnak
+A tesztelés előfeltételei: Tantárgyak megléte az adatbázisban
+A tesztelés dátuma és időpontja:
+A tesztadatok típusa: Tantárgyak adattábla az adatbázisban
+A tesztet végző személy(ek):
+A tesztelt rendszer beállításai:
+A teszt-eset elvárt eredménye: A gombok kattinthatóak
+A tesztelés eredménye: Megfelelt / Nem felelt meg / Megfelelt megjegyzésekkel
+Megjegyzések:
