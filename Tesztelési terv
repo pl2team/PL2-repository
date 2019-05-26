@@ -34,6 +34,17 @@ A tesztelés dátuma és időpontja:
 A tesztadatok típusa: Loginnév, jelszó
 A tesztet végző személy(ek):
 A tesztelt rendszer beállításai:
+A teszt-eset elvárt eredménye: Megjelenik a főoldal, CSS és view betöltődik
+A tesztelés eredménye: Megfelelt / Nem felelt meg / Megfelelt megjegyzésekkel
+Megjegyzések:
+
+A teszt-eset leírás és célja: Az főoldali információk tesztelése
+A tesztelt folyamat/funkció leírása: A főoldal az adatbázisból a megfelelő információkat jeleníti meg
+A tesztelés előfeltételei: Tesztadatok megléte az adatbázisban
+A tesztelés dátuma és időpontja:
+A tesztadatok típusa: Létező adatbázis, feltöltött tesztadatok
+A tesztet végző személy(ek):
+A tesztelt rendszer beállításai:
 A teszt-eset elvárt eredménye: Megjelenik a tantárgylista
 A tesztelés eredménye: Megfelelt / Nem felelt meg / Megfelelt megjegyzésekkel
 Megjegyzések:
