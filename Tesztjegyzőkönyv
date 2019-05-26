@@ -47,3 +47,14 @@ A tesztelt rendszer beállításai: Wamp szerver: localhost, SQL: 80.211.206.34:
 A teszt-eset elvárt eredménye: Megjelenik a tantárgylista
 A tesztelés eredménye: Megfelelt 
 Megjegyzések:
+
+A teszt-eset leírás és célja: A főoldal elemei kattinthatóak
+A tesztelt folyamat/funkció leírása: A főoldal gombjai kattintásra továbbnavigálnak
+A tesztelés előfeltételei: Tantárgyak megléte az adatbázisban
+A tesztelés dátuma és időpontja: 2019.05.26. 20:05
+A tesztadatok típusa: Tantárgyak adattábla az adatbázisban
+A tesztet végző személy(ek): Takácsné Mihók Orsolya
+A tesztelt rendszer beállításai: Wamp szerver: localhost, SQL: 80.211.206.34:3306 username: okito
+A teszt-eset elvárt eredménye: A gombok kattinthatóak
+A tesztelés eredménye: Megfelelt
+Megjegyzések:
