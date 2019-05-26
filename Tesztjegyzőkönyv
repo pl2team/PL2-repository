@@ -25,3 +25,14 @@ A tesztelt rendszer beállításai: MySQL Workbench, 80.211.206.34:3306 username
 A teszt-eset elvárt eredménye: A script hiba nélkül lefut, a táblák és az adatok az adatbázisba bekerültek.
 A tesztelés eredménye: Megfelelt
 Megjegyzések: 
+
+A teszt-eset leírás és célja: Az főoldal megjelenítésének tesztelése
+A tesztelt folyamat/funkció leírása: Belépés utáni alapértelmezett oldal megjelenítése
+A tesztelés előfeltételei: Meglévő login oldal
+A tesztelés dátuma és időpontja:2019.05.26. 19:51
+A tesztadatok típusa: Loginnév, jelszó
+A tesztet végző személy(ek): Takácsné Mihók Orsolya
+A tesztelt rendszer beállításai: Wamp szerver: localhost, SQL: 80.211.206.34:3306 username: okito
+A teszt-eset elvárt eredménye: Megjelenik a főoldal, CSS és view betöltődik
+A tesztelés eredménye: Megfelelt
+Megjegyzések:
