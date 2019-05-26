@@ -58,3 +58,14 @@ A tesztelt rendszer beállításai: Wamp szerver: localhost, SQL: 80.211.206.34:
 A teszt-eset elvárt eredménye: A gombok kattinthatóak
 A tesztelés eredménye: Megfelelt
 Megjegyzések:
+
+A teszt-eset leírás és célja: A főoldal elemei kattintásra továbbnavigálnak a megfelelő oldalra
+A tesztelt folyamat/funkció leírása: A főoldal gombjai kattintásra a megfelelő oldalra viszik a felhasználót
+A tesztelés előfeltételei: Tantárgyak és tananyagok megléte az adatbázisban
+A tesztelés dátuma és időpontja: 2019.05.26. 20:07
+A tesztadatok típusa: Tantárgyak és tananyagok adattábla az adatbázisban
+A tesztet végző személy(ek): Takácsné Mihók Orsolya
+A tesztelt rendszer beállításai: Wamp szerver: localhost, SQL: 80.211.206.34:3306 username: okito
+A teszt-eset elvárt eredménye: A gombok kattintás után a megfelelő oldalra visznek
+A tesztelés eredménye: Megfelelt megjegyzésekkel
+Megjegyzések: A kattintás a tervezett oldalra navigál (course?id=1), de az oldal még nem készült el, így 404-et kapok.
