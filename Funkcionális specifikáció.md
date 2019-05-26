@@ -4,7 +4,8 @@
 Egy olyan tanulást segítő szoftver megalkotása, amit a diákok az internet segítségével bárhol elérhetnek a világon. 
 Amikor van egy kis szabadidejük, akkor csak megnyitják az alkalmazást, felhasználónevükkel belépnek, és már elérhetővé is válik számukra a feltöltött tudástár.  
 A tananyagokhoz tartozzanak többször elvégezhető feladatok, amelyeket a tanárok képesek legyenek szerkeszteni. Legyenek benne játékos feladatok is. 
-A cél a gyerekek oktatása olyan szinten, hogy ők ezt a tanulási folyamatot észrevétlenül élvezzék.
+A cél a gyerekek oktatása olyan szinten, hogy ők ezt a tanulási folyamatot észrevétlenül élvezzék. 
+A szoftver igény szerint továbbfejleszthető, a jelenlegi, a követelményspecifikációban és a funkcionális specifikácifikációban körvonalazott igényeket két lépésben valósítjuk majd meg. Az első szoftverátadásnak elegendő az alapvető feladatokat, a tantárgyakat tartalmaznia. A tanuló és a tanári oldal a megrendelővel való egyeztetést követően az első lépcsőben csupán a tananyag elérését és feltölthetőségét célozza.
 
 ## A rendszer funkciói
 ### Tanuló oldal
@@ -35,4 +36,4 @@ A cél a gyerekek oktatása olyan szinten, hogy ők ezt a tanulási folyamatot �
 ### - Kliensoldal
 ### - Szerveroldal
 ## Dizájn terv
-### - Megtalálható a git terv mappájába.
+### - Megtalálható a git terv mappájában.
