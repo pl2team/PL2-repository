@@ -13,6 +13,6 @@ class Courses extends CI_Controller
     {
         $courses = $this->course_model->CoursesGet();
         $data = array('courses' => $courses);
-        $this->load->view('main', $data);
+        $this->load->view('courses', $data);
     }
 }
