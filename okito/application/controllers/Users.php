@@ -1,7 +1,15 @@
 <?php
 
 class Users extends CI_Controller
-{    
+{
+    public function __construct()
+    {
+        parent::__construct();
+        $this->load->model('course_model');
+        $this->load->helper('url');
+        $this->load->helper('form');
+    }
+
     public function Registration()
     {
         $this->form_validation->set_rules('name', 'Name', 'required');
@@ -12,8 +20,6 @@ class Users extends CI_Controller
 
         if($this->form_validation->run() === FALSE)
             {
-                $this->load->helper('url');
-                $this->load->helper('form');
                 $this->load->view('registration');
             } 
         else 
@@ -35,13 +41,13 @@ class Users extends CI_Controller
         $this->form_validation->set_rules('username', 'Username', 'required');
         if($this->form_validation->run() === FALSE)
             {
-                 $this->load->helper('url');
-                 $this->load->helper('form');
                  $this->load->view('login');
             } 
         else 
             {
-               echo 'énleszek a főoldal';
+                $courses = $this->course_model->CoursesGet();
+                $data = array('courses' => $courses);
+                $this->load->view('main', $data);
             }
 
     }
