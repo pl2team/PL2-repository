@@ -91,3 +91,25 @@ A tesztelt rendszer beállításai: Wamp szerver: localhost, SQL: 80.211.206.34:
 A teszt-eset elvárt eredménye: Betöltődik a regisztrációs oldal
 A tesztelés eredménye: Megfelelt 
 Megjegyzések: 
+
+A teszt-eset leírás és célja: Login oldal regisztráció gomb működése
+A tesztelt folyamat/funkció leírása: A login oldalon a regisztráció-ra kattintva megjelenik a regisztrációs felület
+A tesztelés előfeltételei: Regisztrációs oldal
+A tesztelés dátuma és időpontja: 2019.05.27. 19:52
+A tesztadatok típusa: 
+A tesztet végző személy(ek): Pekár Mihály
+A tesztelt rendszer beállításai: Wamp szerver: localhost, SQL: 80.211.206.34:3306 username: okito
+A teszt-eset elvárt eredménye: Betöltődik a regisztrációs oldal
+A tesztelés eredménye: Megfelelt 
+Megjegyzések: 
+
+A teszt-eset leírás és célja: Login bejelentkezés adatok nélkül a célje, hogy megjelenik-e a hiba
+A tesztelt folyamat/funkció leírása: A login oldalon rákattintva a bejelentkezésgombra análkül, hogy bármilyen adatot beírnánk
+A tesztelés előfeltételei: 
+A tesztelés dátuma és időpontja: 2019.05.27. 19:58
+A tesztadatok típusa: 
+A tesztet végző személy(ek): Pekár Mihály
+A tesztelt rendszer beállításai: Wamp szerver: localhost, SQL: 80.211.206.34:3306 username: okito
+A teszt-eset elvárt eredménye: Hibák kiiratása
+A tesztelés eredménye: Megfelelt 
+Megjegyzések: 
