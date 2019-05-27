@@ -33,7 +33,7 @@ class users_model extends CI_Model
 			}
 					}
     public function valid_username($username){
-        if(strlen ($username) < 3) return false;
+        if(strlen ($username) < 3 || strlen ($username) > 20 ) return false;
         else return true;
     }
 	}
