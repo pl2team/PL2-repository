@@ -13,7 +13,7 @@ class StudyMaterials extends CI_Controller
     {
        if ($id == null) {
            redirect('/courses');
-            return;
+           return;
       }
         $studyMaterials = $this->study_materials_model->StudyMaterialsGet($id);
         $data = array('studyMaterials' => $studyMaterials);

@@ -1,7 +1,7 @@
 <?PHP
 class users_model extends CI_Model
 {
-		public function register($enc_password)
+        public function register($enc_password)
 		{
 			// User data array
 			$data = array(
@@ -32,6 +32,10 @@ class users_model extends CI_Model
 				return false;
 			}
 					}
-
+    public function valid_username($username){
+        if(strlen ($username) < 3) return false;
+        else return true;
+    }
 	}
+
 ?>
