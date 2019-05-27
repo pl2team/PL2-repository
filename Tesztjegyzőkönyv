@@ -63,7 +63,18 @@ A teszt-eset leírás és célja: Login oldal felhasználónév textbox megvált
 A tesztelt folyamat/funkció leírása: Login Felhasználónév textboxra kattintva megjelennik körülötte a kék border
 A tesztelés előfeltételei: 
 A tesztelés dátuma és időpontja: 2019.05.27. 19:52
-A tesztadatok típusa: Tantárgyak és tananyagok adattábla az adatbázisban
+A tesztadatok típusa: 
+A tesztet végző személy(ek): Pekár Mihály
+A tesztelt rendszer beállításai: Wamp szerver: localhost, SQL: 80.211.206.34:3306 username: okito
+A teszt-eset elvárt eredménye: A textboxra kattintva a border megjelenik
+A tesztelés eredménye: Megfelelt 
+Megjegyzések: 
+
+A teszt-eset leírás és célja: Login oldal jelszó textbox megváltozik
+A tesztelt folyamat/funkció leírása: Login jelszó textboxra kattintva megjelennik körülötte a kék border
+A tesztelés előfeltételei: 
+A tesztelés dátuma és időpontja: 2019.05.27. 19:52
+A tesztadatok típusa: 
 A tesztet végző személy(ek): Pekár Mihály
 A tesztelt rendszer beállításai: Wamp szerver: localhost, SQL: 80.211.206.34:3306 username: okito
 A teszt-eset elvárt eredménye: A textboxra kattintva a border megjelenik
