@@ -24,7 +24,7 @@
                                     <label>Jelszó:</label>
                                     <input type="password" class="form-control" name="password" placeholder=" Jelszó megadása.">
                                     <label>Jelszó megerősítése:</label>
-                                    <input type="password" class="form-control" name="password2" placeholder="Jelszó megadása."> 
+                                    <input type="password" class="form-control" name="password2"placeholder="Jelszó megadása."> 
                                     <br>
                                     <div style="color:red"><?php echo validation_errors();?></div>
                                     <button type="submit" class ="btn btn-primary block ">Regisztráció</button>
