@@ -9,9 +9,8 @@ class StudyMaterials extends CI_Controller
         $this->load->helper('url');
     }
 
-    public function index()
+    public function index($id)
     {
-        $id = $this->input->get('id');
        if ($id == null) {
            redirect('/courses');
             return;
@@ -20,4 +19,5 @@ class StudyMaterials extends CI_Controller
         $data = array('studyMaterials' => $studyMaterials);
         $this->load->view('studymaterials', $data);
     }
+    
 }
