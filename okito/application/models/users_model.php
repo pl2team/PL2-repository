@@ -33,6 +33,10 @@ class users_model extends CI_Model
 			}
 					}
     public function valid_username($username){
+       if (preg_match('/[\'^£$%&*()}{@#~?><>,|=_+¬-]/', $username))
+        {
+            return false;
+        }
         if(strlen ($username) < 3 || strlen ($username) > 20 ) return false;
         else return true;
     }

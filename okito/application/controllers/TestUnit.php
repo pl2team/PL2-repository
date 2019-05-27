@@ -12,7 +12,7 @@ class TestUnit extends CI_Controller{
         echo "Unit tests for okító.";
         $this->valid_username_less_than_3_char();
         $this->valid_username_more_than_20_char();
-        
+        $this->valid_username_contains_special_char();   
     }
     public function valid_username_less_than_3_char(){
         $this->load->model("users_model");
@@ -26,6 +26,13 @@ class TestUnit extends CI_Controller{
         $test = $this->users_model->valid_username("aaaaaaaaaaaaaaaaaaaaaaaa");
         $excepted = false;
         $test_name = "Login username length more than 20";
+        echo $this->unit->run($test,$excepted,$test_name);
+    }
+    public function valid_username_contains_special_char(){
+        $this->load->model("users_model");
+        $test = $this->users_model->valid_username("$$$$");
+        $excepted = false;
+        $test_name = "Login username contains special char";
         echo $this->unit->run($test,$excepted,$test_name);
     }
     
