@@ -4,9 +4,10 @@
         <div style="border-radius: 15px; padding:15px; margin-top:10px; width:100%;  background-color: rgba(255, 255, 255, 0.5);">
 <br><h2><?=$title;?></h2>
 <br>
-<?php echo form_open('studymaterials/update'); ?>
+<?php echo form_open('studymaterials/modify/'.$lesson[0]["IdTantargy"]); ?>
   <div class="form-group">
     <label>Tananyag neve</label>
+    <input type="hidden" value="<?php echo $lesson[0]["IdTantargy"]?>" name="lid">
     <input type="text" class="form-control" name="title" value="<?php echo $lesson[0]['Megnevezes'] ?>" >
   </div>
 <div class="form-group">

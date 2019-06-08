@@ -27,5 +27,16 @@ class study_materials_model extends CI_Model
         );
         return $this->db->insert('tananyagok',$data);
     }
+    public function modify_lesson(){
+        $data = array(
+            'Megnevezes' => $this->input->post('title'),
+            'IdFeladattipusok'=>1, 
+            'IdTantargy'=>$this->input->post('id'),  
+            'Tartalom' => $this->input->post('body')
+        );
+        $this->db->set($data);
+        $this->db->where('IdTantargy', $this->input->post('lid'));       
+        return $this->db->update('tananyagok');
+    }
 
 }

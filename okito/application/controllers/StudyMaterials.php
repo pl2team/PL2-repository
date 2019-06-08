@@ -61,8 +61,7 @@ class StudyMaterials extends CI_Controller
        if(!$this->session->userdata('logged_in')){
            redirect('users/login');
        }
-        $data['lesson'] = $this->study_materials_model->GetLesson($id);
-   
+        $data['lesson'] = $this->study_materials_model->GetLesson($id);   
         $this->load->model('courses_model');
         $courses = $this->courses_model->CoursesGet();
         $data['courses'] =  $courses;
@@ -77,7 +76,6 @@ class StudyMaterials extends CI_Controller
             $this->load->view('templates/footer');          
         }
         else{
-            $this->load->model('study_materials_model');
             $this->study_materials_model->modify_lesson();   
             $this->session->set_flashdata('created','Sikeres módosítás');
             redirect('courses');  
@@ -93,7 +91,7 @@ class StudyMaterials extends CI_Controller
         {
             $courses[$key]['tantargyak'] = $this->study_materials_model->StudyMaterialsGet($value['IdTantargyak']);
         }
-        $data['courses'] = $courses;
+        $data['courses'] = $courses;      
         $this->load->view('templates/header');
         $this->load->view('lessons',$data);
         $this->load->view('templates/footer');

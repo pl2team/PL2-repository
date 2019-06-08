@@ -5,9 +5,10 @@
         
 <?php foreach ($courses as $course):?> 
     <div style="float:left; width: 25%">
-        <h1><?php echo $course['Megnevezes']?></h1><br>;
-    <?php foreach ($course['tantargyak'] as $tantargy):?> 
-        <a href="<?php echo base_url()?>studymaterials/modify/<?php echo $tantargy['IdTantargy'] ?>"><h3><?php echo $tantargy['Megnevezes'];?></h3></a><br>
+        <h1><?php echo $course['Megnevezes'];?></h1><br>;
+    <?php foreach ($course['tantargyak'] as $tant):?> 
+     
+        <a style="color:blue" href="<?php echo base_url()?>studymaterials/modify/<?php echo $tant['IdTananyag'];?>"><h3><?php echo $tant['Megnevezes'];?></h3></a><br>
     <?php endforeach;?>
     </div>
     <?php endforeach;?>
