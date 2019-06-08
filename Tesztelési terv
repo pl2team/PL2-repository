@@ -70,3 +70,14 @@ A tesztelt rendszer beállításai:
 A teszt-eset elvárt eredménye: A gombok kattintás után a megfelelő oldalra visznek
 A tesztelés eredménye: Megfelelt / Nem felelt meg / Megfelelt megjegyzésekkel
 Megjegyzések:
+
+A teszt-eset leírás és célja: Ha valamelyik "courses"-re rákattintunk oldal váltás
+A tesztelt folyamat/funkció leírása: Bejelentkezés után valamelyik courses gombra kattintva pl angol behozza az angol tananyagokat
+A tesztelés előfeltételei: Tantárgyak és tananyagok megléte az adatbázisban
+A tesztelés dátuma és időpontja:
+A tesztadatok típusa: Tantárgyak és tananyagok adattábla az adatbázisban
+A tesztet végző személy(ek):
+A tesztelt rendszer beállításai:
+A teszt-eset elvárt eredménye: A gombok kattintás után a megfelelő oldalra visznek
+A tesztelés eredménye: Megfelelt 
+Megjegyzések:
