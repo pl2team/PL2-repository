@@ -14,6 +14,10 @@ class study_materials_model extends CI_Model
         $query = $this->db->get_where('tananyagok', array('IdTantargy' => $IdTantargy));
         return $query->result();
     }
+    function GetLesson($IdTananyag){
+        $query = $this->db->get_where('tananyagok', array('IdTananyag' => $IdTananyag));
+        return $query->result();
+    }
     public function create_lesson(){
         $data = array(
           'Megnevezes'=>$this->input->post('title'),  

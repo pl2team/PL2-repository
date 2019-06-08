@@ -26,7 +26,8 @@ class StudyMaterials extends CI_Controller
            redirect('/courses');
            return;
       }
-        $studyMaterials = $this->study_materials_model->StudyMaterialsGet($id);
+   
+        $studyMaterials = $this->study_materials_model->GetLesson($id);
         $data = array('studyMaterials' => $studyMaterials);
         $this->load->view('templates/header');
         $this->load->view('lesson', $data);
