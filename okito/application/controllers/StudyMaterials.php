@@ -60,9 +60,14 @@ class StudyMaterials extends CI_Controller
         $this->load->model("courses_model");
  
         $courses = $this->courses_model->CoursesGet();
-        foreach ($courses as $course) {
-            $course['tantargyak'] = $this->study_materials_model->GetLesson($id);
+        foreach ($courses as $key => $value) 
+            
+        {
+            $courses[$key]['tantargyak'] = $this->study_materials_model->StudyMaterialsGet($value['IdTantargyak']);
         }
         $data['courses'] = $courses;
+        $this->load->view('templates/header');
+        $this->load->view('lessons',$data);
+        $this->load->view('templates/footer');
     }
 }

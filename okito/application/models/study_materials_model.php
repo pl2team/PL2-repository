@@ -12,7 +12,7 @@ class study_materials_model extends CI_Model
     function StudyMaterialsGet($IdTantargy)
     {
         $query = $this->db->get_where('tananyagok', array('IdTantargy' => $IdTantargy));
-        return $query->result();
+        return $query->result_array();
     }
     function GetLesson($IdTananyag){
         $query = $this->db->get_where('tananyagok', array('IdTananyag' => $IdTananyag));
