@@ -16,7 +16,7 @@ class study_materials_model extends CI_Model
     }
     function GetLesson($IdTananyag){
         $query = $this->db->get_where('tananyagok', array('IdTananyag' => $IdTananyag));
-        return $query->result();
+        return $query->result_array();
     }
     public function create_lesson(){
         $data = array(
@@ -27,4 +27,5 @@ class study_materials_model extends CI_Model
         );
         return $this->db->insert('tananyagok',$data);
     }
+
 }

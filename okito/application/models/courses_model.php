@@ -10,6 +10,6 @@ class courses_model extends CI_Model
     function CoursesGet()
     {
         $query = $this->db->get('tantargyak');
-        return $query->result();
+        return $query->result_array();
     }
 }

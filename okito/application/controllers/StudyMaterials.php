@@ -56,4 +56,13 @@ class StudyMaterials extends CI_Controller
             redirect('courses');  
         }
     }
+    public function Lessons(){
+        $this->load->model("courses_model");
+ 
+        $courses = $this->courses_model->CoursesGet();
+        foreach ($courses as $course) {
+            $course['tantargyak'] = $this->study_materials_model->GetLesson($id);
+        }
+        $data['courses'] = $courses;
+    }
 }

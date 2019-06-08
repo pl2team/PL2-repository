@@ -6,7 +6,7 @@
             <?php foreach ($studyMaterials as $studyMaterial) { ?>
 
                     <div class=" element_card ">
-                        <h1 style="padding: 0 !important" class="title"><?php echo $studyMaterial->Tartalom; ?></h1>
+                        <h1 style="padding: 0 !important" class="title"><?php echo $studyMaterial['Megnevezes']; ?></h1><br><h3><?php echo $studyMaterial['Tartalom']; ?></h3>
                     </div>
             <?php } ?>
         </div>
