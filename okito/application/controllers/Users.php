@@ -40,6 +40,14 @@ class Users extends CI_Controller
         if ($this->form_validation->run() === FALSE) {
             $this->load->view('login');
         } else {
+            $this->load->library('session');
+            $username = $this->input->post('username'); 
+            $newdata = array(
+                    'username'  => $username,
+                    'logged_in' => TRUE
+            );
+
+            $this->session->set_userdata($newdata);
             redirect('/courses');
         }
     }

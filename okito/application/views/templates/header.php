@@ -6,3 +6,7 @@
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css">   
 </head>
 <body>
+    <?php if($this->session->userdata('username')=="tanár"):?>
+    
+    <?php endif; ?>
+
