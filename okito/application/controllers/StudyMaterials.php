@@ -17,7 +17,9 @@ class StudyMaterials extends CI_Controller
       }
         $studyMaterials = $this->study_materials_model->StudyMaterialsGet($id);
         $data = array('studyMaterials' => $studyMaterials);
+        $this->load->view('templates/header');
         $this->load->view('studymaterials', $data);
+        $this->load->view('templates/footer');
     }
     
 }
