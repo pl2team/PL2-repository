@@ -11,7 +11,7 @@
   </div>
 <div class="form-group">
     <label>Tantárgy</label>
-    <select name="slug" class="form-control">
+    <select name="id" class="form-control">
         <?php foreach ($courses as $course):?>
         <option value="<?php  echo $course->IdTantargyak;?>"><?php echo $course->Megnevezes;?></option>
         <?php endforeach;?>
