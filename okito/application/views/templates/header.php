@@ -28,7 +28,7 @@
           Tananyag
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Hozzáadás</a>
+            <a class="dropdown-item" href="<?php echo base_url()."studymaterials/create" ?>">Hozzáadás</a>
           <a class="dropdown-item" href="#">Módosítás</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#">Törlés</a>

@@ -37,6 +37,9 @@ class StudyMaterials extends CI_Controller
            redirect('login');
        }
         $data['title']='Tananyag létrehozása';
+        $this->load->model('courses_model');
+        $courses = $this->courses_model->CoursesGet();
+        $data['courses'] =  $courses;
         $this->form_validation->set_rules('title','Cím','required');
         $this->form_validation->set_rules('course','Tantárgy','required');
         $this->form_validation->set_rules('body','Szöveg','required');
