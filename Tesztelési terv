@@ -81,3 +81,15 @@ A tesztelt rendszer beállításai:
 A teszt-eset elvárt eredménye: A gombok kattintás után a megfelelő oldalra visznek
 A tesztelés eredménye: Megfelelt 
 Megjegyzések:
+
+A teszt-eset leírás és célja: Ha valamelyik "studyMaterial"-re rákattintunk oldal váltás és a tananyagnak a tartalmának a betöltése
+A tesztelt folyamat/funkció leírása: Bejelentkezés után valamelyik tananyag pl irodalom->jános vitéz behozza a verset.
+A tesztelés előfeltételei: Tantárgyak és tananyagok megléte az adatbázisban
+A tesztelés dátuma és időpontja:
+A tesztadatok típusa: Tantárgyak és tananyagok adattábla az adatbázisban
+A tesztet végző személy(ek):
+A tesztelt rendszer beállításai:
+A teszt-eset elvárt eredménye: A gombok kattintás után a megfelelő oldalra visznek
+A tesztelés eredménye: Megfelelt 
+Megjegyzések:
+
