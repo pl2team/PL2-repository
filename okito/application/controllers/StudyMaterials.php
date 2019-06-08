@@ -32,5 +32,25 @@ class StudyMaterials extends CI_Controller
         $this->load->view('lesson', $data);
         $this->load->view('templates/footer');
     }
-    
+    public function create(){
+        if(!$this->session->userdata('logged_in')){
+           redirect('login');
+       }
+        $data['title']='Tananyag létrehozása';
+        $this->form_validation->set_rules('title','Cím','required');
+        $this->form_validation->set_rules('course','Tantárgy','required');
+        $this->form_validation->set_rules('body','Szöveg','required');
+        if($this->form_validation->run()===FALSE){
+            $this->load->view('templates/header');
+            $this->load->view('createLesson',$data);
+            $this->load->view('templates/footer');           
+        }
+        else{
+            $this->load->model('study_materials_model');
+            $this->page_model->create_lesson();   
+            $this->log_model->log('Page created',$this->session->userdata('user_id'));
+            $this->session->set_flashdata('created','Sikeresen hozzáadtad a tananyagot');
+            redirect('courses');  
+        }
+    }
 }
