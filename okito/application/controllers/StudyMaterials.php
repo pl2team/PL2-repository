@@ -56,6 +56,8 @@ class StudyMaterials extends CI_Controller
             redirect('courses');  
         }
     }
+
+
     public function Lessons(){
         $this->load->model("courses_model");
  
