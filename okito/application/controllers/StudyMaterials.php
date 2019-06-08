@@ -41,7 +41,7 @@ class StudyMaterials extends CI_Controller
         $courses = $this->courses_model->CoursesGet();
         $data['courses'] =  $courses;
         $this->form_validation->set_rules('title','Cím','required');
-        $this->form_validation->set_rules('course','Tantárgy','required');
+        $this->form_validation->set_rules('id','Tantárgy','required');
         $this->form_validation->set_rules('body','Szöveg','required');
         if($this->form_validation->run()===FALSE){
             $this->load->view('templates/header');
@@ -50,8 +50,7 @@ class StudyMaterials extends CI_Controller
         }
         else{
             $this->load->model('study_materials_model');
-            $this->page_model->create_lesson();   
-            $this->log_model->log('Page created',$this->session->userdata('user_id'));
+            $this->study_materials_model->create_lesson();   
             $this->session->set_flashdata('created','Sikeresen hozzáadtad a tananyagot');
             redirect('courses');  
         }

@@ -4,7 +4,7 @@
         <div style="border-radius: 15px; padding:15px; margin-top:10px; width:100%;  background-color: rgba(255, 255, 255, 0.5);">
 <br><h2><?=$title;?></h2>
 <br>
-<?php echo form_open('pages/create'); ?>
+<?php echo form_open('studymaterials/create'); ?>
   <div  class="form-group">
     <label>Tananyag neve</label>
     <input type="text" class="form-control" name="title" placeholder="Add meg a tananyag nevét">
