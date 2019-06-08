@@ -35,7 +35,7 @@ class study_materials_model extends CI_Model
             'Tartalom' => $this->input->post('body')
         );
         $this->db->set($data);
-        $this->db->where('IdTantargy', $this->input->post('lid'));       
+        $this->db->where('IdTananyag', $this->input->post('lid'));       
         return $this->db->update('tananyagok');
     }
     public function deleteLesson($id){
