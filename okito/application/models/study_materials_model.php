@@ -38,5 +38,10 @@ class study_materials_model extends CI_Model
         $this->db->where('IdTantargy', $this->input->post('lid'));       
         return $this->db->update('tananyagok');
     }
+    public function deleteLesson($id){
+            $this->db->where('IdTananyag',$id);
+
+        return $this->db->delete('tananyagok');
+    }
 
 }

@@ -96,4 +96,25 @@ class StudyMaterials extends CI_Controller
         $this->load->view('lessons',$data);
         $this->load->view('templates/footer');
     }
+    public function DeleteLessons(){
+        $this->load->model("courses_model");
+ 
+        $courses = $this->courses_model->CoursesGet();
+        foreach ($courses as $key => $value) 
+            
+        {
+            $courses[$key]['tantargyak'] = $this->study_materials_model->StudyMaterialsGet($value['IdTantargyak']);
+        }
+        $data['courses'] = $courses;      
+        $this->load->view('templates/header');
+        $this->load->view('deletelessons',$data);
+        $this->load->view('templates/footer');
+    }
+    public function Delete($id){
+       if(!$this->session->userdata('logged_in')){
+           redirect('users/login');
+       }
+       $this->study_materials_model->deleteLesson($id);   
+       redirect('courses');
+    }
 }

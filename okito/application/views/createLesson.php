@@ -13,7 +13,7 @@
     <label>Tantárgy</label>
     <select name="id" class="form-control">
         <?php foreach ($courses as $course):?>
-        <option value="<?php  echo $course->IdTantargyak;?>"><?php echo $course->Megnevezes;?></option>
+        <option value="<?php  echo $course['IdTantargyak'];?>"><?php echo $course['Megnevezes'];?></option>
         <?php endforeach;?>
     </select>
 </div>

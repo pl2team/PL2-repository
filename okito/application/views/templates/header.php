@@ -31,7 +31,7 @@
             <a class="dropdown-item" href="<?php echo base_url()."studymaterials/create" ?>">Hozzáadás</a>
           <a class="dropdown-item" href="<?php echo base_url()."studymaterials/lessons" ?>">Módosítás</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Törlés</a>
+          <a class="dropdown-item" href="<?php echo base_url()."studymaterials/deletelessons" ?>">Törlés</a>
         </div>
       </li>
       <li class="nav-item dropdown">
