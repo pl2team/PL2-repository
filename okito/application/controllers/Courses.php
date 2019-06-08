@@ -13,7 +13,9 @@ class Courses extends CI_Controller
     {
         $courses = $this->courses_model->CoursesGet();
         $data = array('courses' => $courses);
+        $this->load->view('templates/header');
         $this->load->view('courses', $data);
+        $this->load->view('templates/footer');
     }
     public function course($id){
         $courses = $this->courses_model->CoursesGet();

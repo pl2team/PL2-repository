@@ -1,4 +1,4 @@
-
+<div class="coursebody"">
 <div class="container h-100">
     <div class="d-flex justify-content-center h-100">
         <div style="margin-top:20%;margin-bottom:20%; width:60%">
@@ -14,4 +14,5 @@
             <?php } ?>
         </div>
     </div>
+</div>
 </div>
