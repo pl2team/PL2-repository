@@ -7,6 +7,7 @@ class StudyMaterials extends CI_Controller
         parent::__construct();
         $this->load->model('study_materials_model');
         $this->load->helper('url');
+        $this->load->helper('form');
     }
 
     public function index($id)
@@ -56,7 +57,32 @@ class StudyMaterials extends CI_Controller
             redirect('courses');  
         }
     }
+    public function modify($id){
+       if(!$this->session->userdata('logged_in')){
+           redirect('users/login');
+       }
+        $data['lesson'] = $this->study_materials_model->GetLesson($id);
+   
+        $this->load->model('courses_model');
+        $courses = $this->courses_model->CoursesGet();
+        $data['courses'] =  $courses;
+        $data['title'] = 'Tananyag módosítása';    
+        $this->form_validation->set_rules('title','Cím','required');
+        $this->form_validation->set_rules('id','Tantárgy','required');
+        $this->form_validation->set_rules('body','Szöveg','required');
 
+        if($this->form_validation->run()===FALSE){
+            $this->load->view('templates/header');
+            $this->load->view('modifyLesson',$data);
+            $this->load->view('templates/footer');          
+        }
+        else{
+            $this->load->model('study_materials_model');
+            $this->study_materials_model->modify_lesson();   
+            $this->session->set_flashdata('created','Sikeres módosítás');
+            redirect('courses');  
+        }
+    }
 
     public function Lessons(){
         $this->load->model("courses_model");
