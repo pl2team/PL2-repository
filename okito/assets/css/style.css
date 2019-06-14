@@ -1,5 +1,6 @@
 html, 
 body {
+	height:100%;
 }
 .regbody{
     background: #fff url(http://localhost/okito/assets/images/regbg.jpg);
@@ -48,7 +49,7 @@ body {
 
 .coursebody{
     background: #fff url(http://localhost/okito/assets/images/loginbg.png) no-repeat center center fixed;
-    background-size: cover;
+    background-size: 100%;
     -ms-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
