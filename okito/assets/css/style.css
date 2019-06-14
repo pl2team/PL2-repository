@@ -86,6 +86,12 @@ body {
     border-radius: 50%;
     border: 2px solid white;
 }
+.brand_logo2 {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
 .form_container {
     margin-top: 10px;
 }
