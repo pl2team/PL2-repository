@@ -4408,6 +4408,7 @@ input[type="button"].btn-block {
 
 .navbar {
   position: fixed;
+  width: 100%;
   padding-left: 0;
   padding-right: 0;
   display: -webkit-box;
