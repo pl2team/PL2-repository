@@ -1,4 +1,6 @@
 <div class="coursebody">
+
+<a href="<?PHP echo base_url()?>Courses"><img class="brand_logo2" src="<?php echo base_url()?>/assets/images/cica2.png" class="cica_logo" alt="Logo"></a>
 <div class="container h-100">
     <div class="d-flex justify-content-center h-70">
         <div style="border-radius: 15px; text-align: center; padding:15px; margin-top:10px; width:100%;  background-color: rgba(255, 255, 255, 0.5)">
